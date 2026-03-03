@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Backend Ecommerce Project</title>
+</head>
+
+<body style="margin:0; padding:0; font-family: Arial, sans-serif; background: linear-gradient(to right, #667eea, #764ba2); color: white; text-align: center;">
+
+<div style="padding: 80px 20px;">
+
+    <h1 style="font-size: 40px; margin-bottom: 20px;">
+        👋 My name is <span style="color: #ffd700;">Himanshu</span>
+    </h1>
+    <h1 th:text=" 'Hello' + ${name}"></h1>
+    <h2 style="font-size: 28px; margin-bottom: 30px;">
+        🚀 This is a <strong style="color: #00ffcc;">Backend E-Commerce Project</strong>
+    </h2>
+
+    <div style="background: rgba(255,255,255,0.1);
+                    padding: 30px;
+                    border-radius: 15px;
+                    display: inline-block;
+                    box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+
+        <h3 style="font-size: 24px; margin-bottom: 15px;">
+            💻 Developed using Spring Boot
+        </h3>
+
+        <p style="font-size: 18px; line-height: 1.6;">
+            This project demonstrates backend development concepts like
+            REST APIs, database integration, authentication, and
+            e-commerce business logic.
+        </p>
+
+    </div>
+
+    <br><br>
+
+    <footer style="margin-top: 40px; font-size: 14px; opacity: 0.8;">
+        © 2026 Himanshu | Backend E-Commerce Application
+    </footer>
+
+</div>
+
+</body>
+</html>
